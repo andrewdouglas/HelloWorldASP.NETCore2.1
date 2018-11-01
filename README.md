@@ -16,3 +16,5 @@ npm audit fix
 # To run:
     dotnet run
 Open a browser, and navigate to the URL reported in the command/terminal window e.g. http://localhost:5000.  If Chrome redirects you to https://localhost:5000 and shows a "This site can't be reached" error, in the URL bar of the browser, type chrome://net-internals/#hsts, scroll down to the bottom and in the "Delete domain security policies" section, type localhost and click the Delete button.  Now you should be able to navigate to http://localhost:5000 in Chrome.
+
+Control+C in the terminal to exit.
